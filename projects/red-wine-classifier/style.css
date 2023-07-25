@@ -21,19 +21,20 @@ nav a {
     margin-right: 20px;
     text-decoration: none;
 }
-h3 a {
+
+a {
     color: #222222;
     text-decoration: none;
 }
 
-.project {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 0 20px;
-    text-align: center;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
 }
 
-.project-image {
+.image {
     width: 600px;
     display: block;
     margin-left: auto;
