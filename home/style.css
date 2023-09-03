@@ -21,12 +21,17 @@ nav a {
     margin-right: 20px;
     text-decoration: none;
 }
+a {
+    color: #222;
+    text-decoration: none;
+}
 .container {
     max-width: 650px;
     margin: 0 auto;
     text-align: left;
     padding: 20px;
     display: flex;
+    color: #222;
 }
 .profile-photo {
     width: 200px;
