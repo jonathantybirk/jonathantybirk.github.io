@@ -32,6 +32,7 @@ a {
     padding: 20px;
     display: flex;
     color: #222;
+    font-size: 20px;
 }
 .profile-photo {
     width: 200px;
