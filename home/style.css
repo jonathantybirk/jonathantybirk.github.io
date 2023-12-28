@@ -20,6 +20,7 @@ nav a {
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: none;
+    font-size: 25px;
 }
 a {
     color: #222;
@@ -32,6 +33,7 @@ a {
     padding: 20px;
     display: flex;
     color: #222;
+    font-size: 20px;
 }
 .profile-photo {
     width: 200px;
