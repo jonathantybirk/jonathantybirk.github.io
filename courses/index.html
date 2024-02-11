@@ -47,11 +47,11 @@
             background-color: #f5f5f5;
             color: #333;
         }
-        tr:nth-child(even) {
+        .row-gray-light {
             background-color: #fafafa;
         }
-        tr:nth-child(odd) {
-            background-color: #fff;
+        .row-gray-dark {
+            background-color: #f0f0f0;
         }
         .grade-name, .ects {
             text-align: left;
@@ -74,55 +74,58 @@
         </nav>
     </header>
 
+
     <h2>First Semester Courses and Grades</h2>
+
+    <br>
 
     <table>
         <tr>
             <th>Course Code</th>
             <th>ECTS Points</th>
-            <th>Course Name</th>>
+            <th>Course Name</th>
             <th>Assessment</th>
-            <th><a href="https://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id=KTWXY5RRC4" target="_blank"><u>Grade</u></a>↗</th>
+            <th><a href="http://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id=M3YPFZ8PSQ" target="_blank"><u>Grade</u></a>↗</th>
         </tr>
-        <tr>
+        <tr class="row-gray-light">
             <td rowspan="2"><a href="https://kurser.dtu.dk/course/01001" target="_blank"><u>01001</u></a>↗</td>
             <td rowspan="2" class="ects">10</td>
             <td rowspan="2">Mathematics 1a</td>
             <td class="grade-name">Assignments (33%)</td>
             <td class="grade-value">12 (A)</td>
         </tr>
-        <tr>
+        <tr class="row-gray-light">
             <td class="grade-name">Exam (67%)</td>
             <td class="grade-value">12 (A)</td>
         </tr>
-        <tr>
+        <tr class="row-gray-dark">
             <td><a href="https://kurser.dtu.dk/course/02002" target="_blank"><u>02002</u></a>↗</td>
             <td class="ects">5</td>
             <td>Computer Programming</td>
             <td class="grade-name">Exam</td>
             <td class="grade-value">12 (A)</td>
         </tr>
-        <tr>
+        <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/02402" target="_blank"><u>02402</u></a>↗</td>
             <td class="ects">5</td>
             <td>Statistics</td>
             <td class="grade-name">Exam</td>
             <td class="grade-value">12 (A)</td>
         </tr>
-        <tr>
+        <tr class="row-gray-dark">
             <td rowspan="2"><a href="https://kurser.dtu.dk/course/02461" target="_blank"><u>02461</u></a>↗</td>
             <td rowspan="2" class="ects">10</td>
             <td rowspan="2">Introduction to Intelligent Systems</td>
             <td class="grade-name">Exam (40%)</td>
             <td class="grade-value">12 (A)</td>
         </tr>
-        <tr>
+        <tr class="row-gray-dark">
             <td class="grade-name">Group Project (60%)</td>
-            <td class="grade-value">TBD</td>
+            <td class="grade-value">10 (B)</td>
         </tr>
     </table>
 
-    <br>
+    <br><br>
 
     <h2>Second Semester Courses and Grades</h2>
 
@@ -136,35 +139,36 @@
             <th>Assessment</th>
             <th>Grade</th>
         </tr>
-        <tr>
+        <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/01002" target="_blank"><u>01002</u></a>↗</td>
             <td class="ects">10</td>
             <td>Mathematics 1b</td>
             <td class="grade-name"></td>
             <td class="grade-value">TBD</td>
         </tr>
-        <tr>
+        <tr class="row-gray-dark">
             <td><a href="https://kurser.dtu.dk/course/02105" target="_blank"><u>02105</u></a>↗</td>
             <td class="ects">5</td>
             <td>Algorithmns and Data Structures 1</td>
             <td class="grade-name"></td>
             <td class="grade-value">TBD</td>
         </tr>
-        <tr>
+        <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/02450" target="_blank"><u>02450</u></a>↗</td>
             <td class="ects">5</td>
-            <td>Introduction to Machine Learning and Data Mining</td>
+            <td>Introduction to Machine Learning 
+                <br> and Data Mining</td>
             <td class="grade-name"></td>
             <td class="grade-value">TBD</td>
         </tr>
-        <tr>
+        <tr class="row-gray-dark">
             <td><a href="https://kurser.dtu.dk/course/10060" target="_blank"><u>10060</u></a>↗</td>
             <td class="ects">10 (split)</td>
             <td>Physics</td>
             <td class="grade-name"></td>
             <td class="grade-value">TBD</td>
         </tr>
-        <tr>
+        <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/42620" target="_blank"><u>42620</u></a>↗</td>
             <td class="ects">5</td>
             <td>Science, Technology and Society</td>
@@ -172,6 +176,8 @@
             <td class="grade-value">TBD</td>
         </tr>
     </table>
+
+    <br><br>
 
 </body>
 
