@@ -58,12 +58,24 @@
             text-align: left;
         }
         .grade-value {
-            text-align: right;
+            text-align: center;
         }
         h2 {
             text-align: center;
             margin-top: 20px;
         }
+        .note {
+            font-size: 0.9em;
+            color: #555;
+            margin-left: 15%;
+            margin-right: 15%;
+            text-indent: 2em;
+        }
+        /* .star-link {
+            text-decoration: none;
+            color: #000;
+        } */
+
     </style>
 </head>
 
@@ -84,10 +96,11 @@
     <table>
         <tr>
             <th>Course Code</th>
-            <th>ECTS Points</th>
+            <th>ECTS</th>
             <th>Course Name</th>
             <th>Assessment</th>
             <th><a href="http://campusnet.dtu.dk/cnnet/Grades/Public.aspx?Id=M3YPFZ8PSQ" target="_blank"><u>Grade</u></a>↗</th>
+            <th>Class Avg</th>
         </tr>
         <tr class="row-gray-light">
             <td rowspan="2"><a href="https://kurser.dtu.dk/course/2023-2024/01001" target="_blank"><u>01001</u></a>↗</td>
@@ -95,6 +108,7 @@
             <td rowspan="2">Mathematics 1a</td>
             <td class="grade-name">Assignments (33%)</td>
             <td class="grade-value">12 (A)</td>
+            <td rowspan="2" class="grade-value">8.2</td>
         </tr>
         <tr class="row-gray-light">
             <td class="grade-name">Exam (67%)</td>
@@ -106,13 +120,15 @@
             <td>Computer Programming</td>
             <td class="grade-name">Exam</td>
             <td class="grade-value">12 (A)</td>
+            <td class="grade-value">5.7</td>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/2023-2024/02402" target="_blank"><u>02402</u></a>↗</td>
             <td class="ects">5</td>
-            <td>Statistics</td>
+            <td>Statistics *</td>
             <td class="grade-name">Exam</td>
             <td class="grade-value">12 (A)</td>
+            <td class="grade-value">6.0</td>
         </tr>
         <tr class="row-gray-dark">
             <td rowspan="2"><a href="https://kurser.dtu.dk/course/2023-2024/02461" target="_blank"><u>02461</u></a>↗</td>
@@ -120,6 +136,7 @@
             <td rowspan="2">Introduction to Intelligent Systems</td>
             <td class="grade-name">Exam (40%)</td>
             <td class="grade-value">12 (A)</td>
+            <td rowspan="2" class="grade-value">8.1</td>
         </tr>
         <tr class="row-gray-dark">
             <td class="grade-name">Group Project (60%)</td>
@@ -127,9 +144,13 @@
         </tr>
     </table>
 
-    <br><br>
+    <br>
+    <p class="note">* Employed as Teaching Assistant for 02402 Statistics in Spring 2024</p>
+
+    <br>
 
     <h2>Second Semester Courses and Grades</h2>
+
     <p style="text-align: center;"><i>January 2024 - June 2024</i></p>
 
     <br>
@@ -137,16 +158,18 @@
     <table>
         <tr>
             <th>Course Code</th>
-            <th>ECTS Points</th>
+            <th>ECTS</th>
             <th>Course Name</th>
             <th>Assessment</th>
             <th>Grade</th>
+            <th>Class Avg</th>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/2023-2024/01002" target="_blank"><u>01002</u></a>↗</td>
             <td class="ects">10</td>
             <td>Mathematics 1b</td>
             <td class="grade-name"></td>
+            <td class="grade-value">TBD</td>
             <td class="grade-value">TBD</td>
         </tr>
         <tr class="row-gray-dark">
@@ -155,6 +178,7 @@
             <td>Algorithmns and Data Structures 1</td>
             <td class="grade-name"></td>
             <td class="grade-value">TBD</td>
+            <td class="grade-value">TBD</td>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/2023-2024/02450" target="_blank"><u>02450</u></a>↗</td>
@@ -162,12 +186,14 @@
             <td>Introduction to Machine Learning and Data Mining</td>
             <td class="grade-name"></td>
             <td class="grade-value">TBD</td>
+            <td class="grade-value">TBD</td>
         </tr>
         <tr class="row-gray-dark">
             <td><a href="https://kurser.dtu.dk/course/2023-2024/02445" target="_blank"><u>02445</u></a>↗</td>
             <td class="ects">5</td>
             <td>Project in Statistical Evaluation for Artificial Intelligence and Data</td>
             <td class="grade-name"></td>
+            <td class="grade-value">TBD</td>
             <td class="grade-value">TBD</td>
         </tr>
     </table>
@@ -182,16 +208,18 @@
     <table>
         <tr>
             <th>Course Code</th>
-            <th>ECTS Points</th>
+            <th>ECTS</th>
             <th>Course Name</th>
             <th>Assessment</th>
             <th>Grade</th>
+            <th>Class Avg</th>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/01037" target="_blank"><u>01037</u></a>↗</td>
             <td class="ects">5</td>
             <td>Advanced Engineering Mathematics 2</td>
             <td class="grade-name"></td>
+            <td class="grade-value"></td>
             <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-dark">
@@ -200,12 +228,14 @@
             <td>Algorithmns and Data Structures 2</td>
             <td class="grade-name"></td>
             <td class="grade-value"></td>
+            <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/02405" target="_blank"><u>02405</u></a>↗</td>
             <td class="ects">5</td>
             <td>Probability Theory</td>
             <td class="grade-name"></td>
+            <td class="grade-value"></td>
             <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-dark">
@@ -214,12 +244,14 @@
             <td>Signals and Data</td>
             <td class="grade-name"></td>
             <td class="grade-value"></td>
+            <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/02464" target="_blank"><u>02464</u></a>↗</td>
             <td class="ects">5</td>
             <td>Artificial Intelligence and Human Cognition</td>
             <td class="grade-name"></td>
+            <td class="grade-value"></td>
             <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-dark">
@@ -228,11 +260,12 @@
             <td>Machine Learning Operations</td>
             <td class="grade-name"></td>
             <td class="grade-value"></td>
+            <td class="grade-value"></td>
         </tr>
     </table>
 
     <br><br>
-    
+        
     <h2>Fourth Semester Courses (expected)</h2>
     <p style="text-align: center;"><i>January 2025 - June 2025</i></p>
 
@@ -241,16 +274,18 @@
     <table>
         <tr>
             <th>Course Code</th>
-            <th>ECTS Points</th>
+            <th>ECTS</th>
             <th>Course Name</th>
             <th>Assessment</th>
             <th>Grade</th>
+            <th>Class Avg</th>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/02182" target="_blank"><u>02182</u></a>↗</td>
             <td class="ects">5</td>
             <td>Symbolic Artificial Intelligence</td>
             <td class="grade-name"></td>
+            <td class="grade-value"></td>
             <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-dark">
@@ -259,6 +294,7 @@
             <td>Active Machine Learning and Agency</td>
             <td class="grade-name"></td>
             <td class="grade-value"></td>
+            <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-light">
             <td><a href="https://kurser.dtu.dk/course/02465" target="_blank"><u>02465</u></a>↗</td>
@@ -266,12 +302,164 @@
             <td>Introduction to Reinforcement Learning and Control</td>
             <td class="grade-name"></td>
             <td class="grade-value"></td>
+            <td class="grade-value"></td>
         </tr>
         <tr class="row-gray-dark">
             <td><a href="https://kurser.dtu.dk/course/02466" target="_blank"><u>02466</u></a>↗</td>
             <td class="ects">10</td>
             <td>Project Work - Bachelor of Artificial Intelligence and Data</td>
             <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h2>Fifth Semester Courses (expected)</h2>
+    <p style="text-align: center;"><i>August 2025 - January 2026</i></p>
+
+    <br>
+
+    <table>
+        <tr>
+            <th>Course Code</th>
+            <th>ECTS</th>
+            <th>Course Name</th>
+            <th>Assessment</th>
+            <th>Grade</th>
+            <th>Class Avg</th>
+        </tr>
+        <tr class="row-gray-light">
+            <td><a href="https://classes.cornell.edu/browse/roster/FA24/class/ECE/4230" target="_blank"><u>ECE 4230</u></a>↗</td>
+            <td class="ects"></td>
+            <td>Computer Vision</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-dark">
+            <td><a href="https://classes.cornell.edu/browse/roster/FA24/class/ECE/4750" target="_blank"><u>ECE 4750</u></a>↗</td>
+            <td class="ects"></td>
+            <td>Computer Architecture</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-light">
+            <td><a href="https://classes.cornell.edu/browse/roster/FA24/class/ECE/4770" target="_blank"><u>ECE 4770</u></a>↗</td>
+            <td class="ects"></td>
+            <td>Foundations of Robotics</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-light">
+            <td><a href="https://kurser.dtu.dk/course/42620" target="_blank"><u>42620</u></a>↗</td>
+            <td class="ects">5</td>
+            <td>Science, Technology and Society</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h2>Sixth Semester Courses (expected)</h2>
+    <p style="text-align: center;"><i>January 2026 - June 2026</i></p>
+
+    <br>
+
+    <table>
+        <tr>
+            <th>Course Code</th>
+            <th>ECTS</th>
+            <th>Course Name</th>
+            <th>Assessment</th>
+            <th>Grade</th>
+            <th>Class Avg</th>
+        </tr>
+        <tr class="row-gray-light">
+            <td></td>
+            <td class="ects">15</td>
+            <td>Bachelor Project</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-dark">
+            <td><a href="https://kurser.dtu.dk/course/10060" target="_blank"><u>10060</u></a>↗</td>
+            <td class="ects">10 (split)</td>
+            <td>Physics</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-light">
+            <td><a href="https://kurser.dtu.dk/course/26021" target="_blank"><u>26021</u></a>↗</td>
+            <td class="ects">5</td>
+            <td>Chemistry</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-light">
+            <td><a href="https://kurser.dtu.dk/course/27020" target="_blank"><u>27020</u></a>↗</td>
+            <td class="ects">5</td>
+            <td>Bioengineering</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h2>Seventh & Eight Semester Courses (expected)</h2>
+    <p style="text-align: center;"><i>August 2026 - June 2027</i></p>
+
+    <br>
+
+    <table>
+        <tr>
+            <th>Course Code</th>
+            <th>ECTS</th>
+            <th>Course Name</th>
+            <th>Assessment</th>
+            <th>Grade</th>
+            <th>Class Avg</th>
+        </tr>
+        <tr class="row-gray-light">
+            <td><a href="https://kurser.dtu.dk/course/02266" target="_blank"><u>02266</u></a>↗</td>
+            <td class="ects">5</td>
+            <td>User Experience Engineering</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-dark">
+            <td><a href="https://kurser.dtu.dk/course/10060" target="_blank"><u>10060</u></a>↗</td>
+            <td class="ects">10 (split)</td>
+            <td>Physics</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-light">
+            <td></td>
+            <td class="ects">5</td>
+            <td>Project Course</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
+            <td class="grade-value"></td>
+        </tr>
+        <tr class="row-gray-light">
+            <td></td>
+            <td class="ects">30</td>
+            <td>Various MSc courses for transitional semesters</td>
+            <td class="grade-name"></td>
+            <td class="grade-value"></td>
             <td class="grade-value"></td>
         </tr>
     </table>
